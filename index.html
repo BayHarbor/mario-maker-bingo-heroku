@@ -1,0 +1,92 @@
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Cambay' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+<meta charset="utf-8" />
+
+<link rel="icon" 
+      type="image/png" 
+      href="favicon.png">
+
+<title>Bingo</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body onload="newCard()">
+
+	<div id="container">
+    <div id="header">
+      <img src="Super-Mario-Maker-2-Logo.jpg">
+    </div>
+	<div id="content">
+		<table id="bingotable">
+			<tr>
+				<td id="square0" onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>				
+				<td id="square1" onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>	
+				<td id="square2" onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>	
+				<td id="square3" onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>	
+				<td id="square4" onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>													
+			</tr>
+			<tr>
+				<td id="square5"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square6"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square7"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square8"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square9"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="square10"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square11"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="squarefree"> FREE</td>
+				<td id="square12"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square13"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="square14"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square15"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square16"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square17"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square18"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+			</tr>
+			<tr>
+				<td id="square19"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square20"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square21"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square22"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+				<td id="square23"onclick="if((this.style.backgroundColor === 'rgb(254, 222, 93)') || this.style.backgroundColor ==='') {this.style.backgroundColor='rgb(4, 156, 216)'} 
+				else {this.style.backgroundColor='rgb(254, 222, 93)'}"> &nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	
+<p><a href="#" onclick="anotherCard()"> Generate New Card</a></p>
+
+</body>
+
+</html>
